@@ -1,0 +1,34 @@
+.DishForm {
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.DishForm input,
+.DishForm button
+{
+    display: block;
+    margin: 15px auto;
+    padding: 10px;
+}
+
+.DishForm select {
+    width: 90%;
+}
+
+.DishForm input{
+    width: 86%;
+    border: 1px solid crimson;
+}
+
+
+.DishForm button {
+    background: crimson;
+    border: transparent;
+}
+
+.DishForm button {
+    border-radius: 5px;
+}
