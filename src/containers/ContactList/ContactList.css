@@ -1,20 +1,24 @@
+.Contacts {
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
 .ContactList {
-    border: 1px solid crimson;
+    margin: 20px 0;
+    border: 1px solid #ad1283;
     border-radius: 5px;
-    padding: 10px;
-    margin: 10px 0;
+    padding: 54px;
     width: 80%;
+    height: 20%;
 }
 
 .ContactImage {
     width: 100px;
     height: 100px;
     float: left;
-    margin: 20px;
 }
 
-.Button {
-    background: crimson;
+.ContactList button {
+    background: #ad1283;
     border-radius: 5px;
     border: transparent;
     padding: 5px;
