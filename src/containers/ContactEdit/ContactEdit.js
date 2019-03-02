@@ -23,7 +23,7 @@ class ContactEdit extends Component {
         />;
 
         if (!this.props.contact) {
-            formDish = <Spinner/>
+            formContact = <Spinner/>
         }
         return (
             <div>
