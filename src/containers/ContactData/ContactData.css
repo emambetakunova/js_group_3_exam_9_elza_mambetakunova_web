@@ -1,0 +1,25 @@
+
+.ContactData {
+    margin: 20px 0;
+    border-radius: 5px;
+    padding: 54px;
+    width: 80%;
+    height: 20%;
+}
+
+.ContactData img {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.ContactData button {
+    background: #ad1283;
+    border-radius: 5px;
+    border: transparent;
+    padding: 5px;
+    margin: 10px;
+}
+.ContactData button:hover{
+    background: darksalmon;
+}
