@@ -1,4 +1,4 @@
-.DishForm {
+.ContactForm {
     max-width: 600px;
     margin: 20px auto;
     display: flex;
@@ -6,29 +6,31 @@
 }
 
 
-.DishForm input,
-.DishForm button
+.ContactForm input,
+.Contact button
 {
     display: block;
     margin: 15px auto;
     padding: 10px;
 }
 
-.DishForm select {
-    width: 90%;
+.ContactForm img {
+    width: 80px;
+    height: 80px;
+    text-align: center;
 }
 
-.DishForm input{
+.ContactForm input{
     width: 86%;
-    border: 1px solid crimson;
+    border: 1px solid #ad1283;
 }
 
 
-.DishForm button {
-    background: crimson;
+.ContactForm button {
+    background: #ad1283;
     border: transparent;
-}
-
-.DishForm button {
     border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
 }

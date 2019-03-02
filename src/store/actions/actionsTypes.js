@@ -4,3 +4,6 @@ export const CONTACT_FAILURE = 'CONTACT_FAILURE';
 
 export const CONTACT_EDIT_SUCCESS = 'CONTACT_EDIT_SUCCESS';
 export const CONTACT_EDITED = 'CONTACT_EDITED';
+
+export const OPEN_MODAL = 'OPEN_MODAL';
+export const CLOSE_MODAL = 'CLOSE_MODAL';

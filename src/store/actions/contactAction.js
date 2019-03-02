@@ -1,4 +1,11 @@
-import {CONTACT_FAILURE, CONTACT_REQUEST, CONTACT_SUCCESS, CONTACT_EDIT_SUCCESS, CONTACT_EDITED} from "./actionsTypes";
+import {
+    CONTACT_FAILURE,
+    CONTACT_REQUEST,
+    CONTACT_SUCCESS,
+    CONTACT_EDIT_SUCCESS,
+    CONTACT_EDITED,
+    CLOSE_MODAL, OPEN_MODAL
+} from "./actionsTypes";
 import axios from '../../axios-contact';
 
 export const contactRequest = () => ({type: CONTACT_REQUEST});
@@ -10,6 +17,10 @@ export const contactFailure = error => ({type: CONTACT_FAILURE, error});
 export const contactEditSuccess = response => ({type: CONTACT_EDIT_SUCCESS, response});
 
 export const contactEdited = () => ({type: CONTACT_EDITED});
+
+export const openModal = (id) => ({type: OPEN_MODAL, id});
+
+export const closeModal = () => ({type: CLOSE_MODAL});
 
 export const fetchContacts = () => {
     return dispatch => {
