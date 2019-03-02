@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
 
 import {connect} from "react-redux";
+import {applyMiddleware as dispatch} from "redux";
 
 import ContactForm from "../../components/ContactForm/ContactForm";
 
-import './DishAdd.css';
+import './ContactAdd.css';
 import {addContact} from "../../store/actions/contactAction";
 
 
