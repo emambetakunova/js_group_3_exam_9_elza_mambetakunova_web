@@ -1,0 +1,25 @@
+.ContactList {
+    border: 1px solid crimson;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+}
+
+.ContactImage {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 20px;
+}
+
+.Button {
+    background: crimson;
+    border-radius: 5px;
+    border: transparent;
+    padding: 5px;
+    margin: 10px;
+}
+.Button:hover{
+    background: darksalmon;
+}
